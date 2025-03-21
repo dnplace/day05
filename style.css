@@ -230,7 +230,7 @@ h4 {
   left: 0;
   border-top-color: transparent;
   border-right-color: transparent;
-  border-color: #f19066;
+  border-color: #3749bb41;
 }
 
 .ribbon::after {
@@ -238,5 +238,5 @@ h4 {
   right: 0;
   border-top-color: transparent;
   border-right-color: transparent;
-  border-color: #f19066;
+  border-color: #3749bb41;
 }
