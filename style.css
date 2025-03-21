@@ -212,7 +212,7 @@ h4 {
   text-transform: uppercase;
   text-align: center;
   border: 2px dotted #fff;
-  outline: 5px solid #f5cd79;
+  outline: 5px solid #3749bb41;
 }
 
 /* Pseudo-elements for ribbon corners */
@@ -230,7 +230,7 @@ h4 {
   left: 0;
   border-top-color: transparent;
   border-right-color: transparent;
-  border-color: #3749bb;
+  border-color: #f19066;
 }
 
 .ribbon::after {
@@ -238,5 +238,5 @@ h4 {
   right: 0;
   border-top-color: transparent;
   border-right-color: transparent;
-  border-color: #3749bb;
+  border-color: #f19066;
 }
