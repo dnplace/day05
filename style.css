@@ -188,3 +188,55 @@ h4 {
   margin-top: 10px;
   border-radius: 5px ;
 }
+.ribbon {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.ribbon__content {
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+  position: absolute;
+  display: block;
+  width: 225px;
+  padding: 10px 0;
+  background-color: #00aaa0;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px dotted #fff;
+  outline: 5px solid #f5cd79;
+}
+
+/* Pseudo-elements for ribbon corners */
+.ribbon::before,
+.ribbon::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.ribbon::before {
+  top: 0;
+  left: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-color: #f19066;
+}
+
+.ribbon::after {
+  bottom: 0;
+  right: 0;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-color: #f19066;
+}
